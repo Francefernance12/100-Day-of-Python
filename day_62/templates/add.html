@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+<!--Don't forget your import here-->
+{% block title %}Add A New Cafe{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-8">
+
+      <h1>Add a new cafe into the database</h1>
+
+      <!-- This is where your WTForm will go -->
+      <form method="POST">
+          {{ form.hidden_tag() }}
+                    <!-- Cafe Name -->
+          <p>
+              {{ form.cafe.label }}<br>
+              {{ form.cafe(size=50) }}<br>
+              {% for error in form.cafe.errors %}
+                <span style="color: red;">[{{ error }}]</span>
+              {% endfor %}
+          </p>
+                    <!-- Cafe Location -->
+          <p>
+              {{ form.cafe_location_url.label }}<br>
+              {{ form.cafe_location_url(size=50) }}<br>
+              {% for error in form.cafe_location_url.errors %}
+                <span style="color: red;">[{{ error }}]</span>
+              {% endfor %}
+          </p>
+                    <!-- Opening Time -->
+          <p>
+              {{ form.open_time.label }}<br>
+              {{ form.open_time(size=50) }}<br>
+              {% for error in form.open_time.errors %}
+                <span style="color: red;">[{{ error }}]</span>
+              {% endfor %}
+          </p>
+                    <!-- Closing Time -->
+          <p>
+              {{ form.closing_time.label }}<br>
+              {{ form.closing_time(size=50) }}<br>
+              {% for error in form.closing_time.errors %}
+                <span style="color: red;">[{{ error }}]</span>
+              {% endfor %}
+          </p>
+                    <!-- Coffee Rating -->
+          <p>
+              {{ form.coffee_rating.label }}<br>
+              {{ form.coffee_rating() }}<br>
+              {% for error in form.coffee_rating.errors %}
+                <span style="color: red;">[{{ error }}]</span>
+              {% endfor %}
+          </p>
+                    <!-- WIFI Rating -->
+          <p>
+              {{ form.wifi_rating.label }}<br>
+              {{ form.wifi_rating() }}<br>
+              {% for error in form.wifi_rating.errors %}
+                <span style="color: red;">[{{ error }}]</span>
+              {% endfor %}
+          </p>
+                    <!-- Power Rating -->
+          <p>
+              {{ form.power_outlet_rating.label }}<br>
+              {{ form.power_outlet_rating() }}<br>
+              {% for error in form.power_outlet_rating.errors %}
+                <span style="color: red;">[{{ error }}]</span>
+              {% endfor %}
+          </p>
+          <p>{{ form.submit() }}</p>
+      </form>
+
+
+	  <p class="space-above"><a href="{{ url_for('cafes') }}">See all cafes</a></p>
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}
