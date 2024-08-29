@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # api url/blog posts
-blog_api_url = getenv('BLOG_API_URL')
+blog_api_url = 'https://api.npoint.io/8712ecd425f97eed02f9'
 blog_response = requests.get(blog_api_url)
 all_posts = blog_response.json()
 post_objects = [Post(post["id"], post["title"], post["subtitle"], post["body"]) for post in all_posts]
@@ -26,7 +26,7 @@ def send_email(response):
     with smtplib.SMTP("smtp.gmail.com") as connection:
         connection.starttls()  # secures connection by making the email encrypted
         connection.login(user=my_email, password=app_password)
-        connection.sendmail(from_addr=my_email, to_addrs="example@example.com",
+        connection.sendmail(from_addr=my_email, to_addrs="example@example.com",  # add recipient
                             msg=f"Subject:Blog Contact\n\n "
                                 f"{response['name']} "
                                 f"\n{response['email']} "

@@ -27,10 +27,7 @@ class BookForm(FlaskForm):
 
 # check if DB exist, if not create DB
 with app.app_context():
-    inspector = inspect(db.engine)
-    # check if the DB exists
-    if not inspector.has_table('book'):
-        db.create_all()
+    db.create_all()
 
 
 @app.route('/')

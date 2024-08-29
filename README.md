@@ -41,37 +41,37 @@ All the projects I have created from a course
 | 38   |Exercise Tracker|             |
 | 39   |Yet to Finish|             |
 | 40   |Yet to Finish|             |
-| 41   |Top movie Ranking Website(HTML)|             |
-| 42   |Party Invite Website(HTML)|             |
-| 43   |Color Vocab Website(HTML+CSS)|             |
-| 44   |Motivational Poster Website(HTML+CSS)|             |
+| 41   |Top movie Ranking Website(HTML)|https://github.com/Francefernance12/Portfolio-Website|
+| 42   |Party Invite Website(HTML)|https://github.com/Francefernance12/Portfolio-Website|
+| 43   |Color Vocab Website(HTML+CSS)|https://github.com/Francefernance12/Portfolio-Website|
+| 44   |Motivational Poster Website(HTML+CSS)|https://github.com/Francefernance12/Portfolio-Website|
 | 45   |Top 10 Movies of All Time|             |
 | 46   |Spotify Top 100 Playlist|             |
 | 47   |Amazon Price Deal Tracker|             |
-| 48   |      |             |
-| 49   |      |             |
-| 50   |      |             |
-| 51   |      |             |
-| 52   |      |             |
-| 53   |      |             |
-| 54   |      |             |
-| 55   |      |             |
-| 56   |      |             |
-| 57   |      |             |
-| 58   |      |             |
-| 59   |      |             |
-| 60   |      |             |
-| 61   |      |             |
-| 62   |      |             |
-| 63   |      |             |
-| 64   |      |             |
-| 65   |      |             |
-| 66   |      |             |
-| 67   |      |             |
-| 68   |      |             |
-| 69   |      |             |
-| 70   |      |             |
-| 71   |      |             |
+| 48   |MISSING|             |
+| 49   |MISSING|             |
+| 50   |Auto Tinder Swiping|             |
+| 51   |Internet Speed Twitter Complaint Bot|             |
+| 52   |Yet to finish|             |
+| 53   |Yet to finish|             |
+| 54   |NULL|             |
+| 55   |Lower Higher Website|             |
+| 56   |Name Card Website|             |
+| 57   |Sample Blog Website(P1)|             |
+| 58   |Tin Dog Website(Bootstrap)|https://github.com/Francefernance12/TinDog?tab=readme-ov-file|
+| 59   |Sample Blog Website(P2)|             |
+| 60   |Sample Blog Website(P3)|             |
+| 61   |Login Website|             |
+| 62   |Coffee & Wifi Website|             |
+| 63   |Library Website|             |
+| 64   |Top 10 Movie Website(Flask/DB)|             |
+| 65   |NULL|             |
+| 66   |Restful API|             |
+| 67   |Restful API(P2)|             |
+| 68   |Authentication/Download Website|             |
+| 69   |Personal Blog Website|             |
+| 70   |NULL|             |
+| 71   |NULL|             |
 | 72   |      |             |
 | 73   |      |             |
 | 74   |      |             |
