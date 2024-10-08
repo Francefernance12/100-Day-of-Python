@@ -70,7 +70,7 @@ class MorseCodeConverter:
         # Update and save history to json
         self.update_history(get_input, output)
 
-    # load existing json history
+    # load existing json history(also creates a new one if it doesn't exist)
     def load_history(self):
         """Load history from a JSON file, or create a new history file if it doesn't exist."""
         if os.path.exists("morse_code_history.json"):
@@ -79,7 +79,7 @@ class MorseCodeConverter:
         else:
             self.history = []
 
-    # updates the json history(also creates a new one if it doesn't exist)
+    # updates the json history
     def update_history(self, input_text, morse_code):
         new_entry = {
             "input_text": input_text,
