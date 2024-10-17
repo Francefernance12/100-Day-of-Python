@@ -1,16 +1,16 @@
 # 100-Day-of-Python
-All the projects I have created from a course
+All the projects I have created from the course
 | Days | Name | Description |
 |------|------|-------------|
-| 1    |Band Name Generator|             |
-| 2    |Tip Calculator|             |
-| 3    |Treasure Island|             |
-| 4    |Rock Paper Scissors|             |
-| 5    |Password Generator|             |
+| 1    |Band Name Generator|Python Script; Creates a band name using the user's inputs|
+| 2    |Tip Calculator|Python Script; calculates the tip and the split amount if your friend wants to split the bill|
+| 3    |Treasure Island|Python Script; A simple adventure game where the user must find a treasure chest|
+| 4    |Rock Paper Scissors|Python Script; A game of rock paper and scissors against the bot|
+| 5    |Password Generator|Python Script; Creates a very secure password|
 | 6    |NULL|             |
-| 7    |Hangman|             |
-| 8    |Caesar Cipher|             |
-| 9    |Blind Auction|             |
+| 7    |Hangman|python Script; A word guessing game where the amount of body parts |
+| 8    |Caesar Cipher|python Script; Recreates the original word encryption, the caesar cipher|
+| 9    |Blind Auction|python Script; A blind auction that allow users to bid without knowing about the other bids|
 | 10   |Calculator|             |
 | 11   |BlackJack|             |
 | 12   |Guessing Number Game|             |
